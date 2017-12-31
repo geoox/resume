@@ -2,13 +2,9 @@ body{
 	background-image: url("img/wave.jpg");
 	background-size: cover;
 	font-family: 'Montserrat', sans-serif;
+	background-attachment: fixed;
+}
 
-}
-@media only screen and (min-width : 320px) and (max-width : 800px) {
-	background-image: url("img/wave-mob.jpg");
-	background-size: cover;
-	background-repeat:none;
-}
 
 
 h1{
@@ -18,13 +14,29 @@ h1{
 	color:white;
 }
 
-p{
+#sect1 p, #download p{
 	color:white;
 	text-align: center;
 	font-size: 140%;
 	width:55%;
 	margin:auto;
 }
+
+#sect2 p, #download2 p{
+	color:white;
+	text-align: center;
+	font-size: 250%;
+	width:65%;
+	margin:auto;
+	padding-top: 7%;
+	padding-bottom: 7%;
+}
+
+#sect2{
+	padding-top: 10%;
+}
+
+
 #social{
 	text-align: center;
 	margin:auto;
@@ -50,5 +62,16 @@ p{
 
 #download p{
 	padding-bottom: 5%;
+}
+
+#download2{
+	padding-top: 15%;
+	width: 90%;
+	margin:auto;
+	text-align: center;
+}
+#download2 img{
+	width: 20%;
+	
 }
 
