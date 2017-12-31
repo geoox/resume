@@ -1,48 +1,54 @@
 body{
-	background-color: #d3d3d3 !important;
-	height: 842px;
-    width: 595px;
- 	margin:auto !important;
+	background-image: url("img/wave.jpg");
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+
 }
-
-p.col-md-3{
-	font-size:18px;
-}
-
-
-img.col-md-3.img-responsive.img-rounded{
-	padding-left:4%;
-	padding-top: 2%;
-}
-
-.header h4{
-	padding-top: 2%;
-	font-size:35px;
-	
+@media only screen and (min-width : 320px) and (max-width : 800px) {
+	background-image: url("img/wave-mob.jpg");
+	background-size: cover;
+	background-repeat:none;
 }
 
 
-hr{
-	border-color: black !important;
-	width:90%;
+h1{
+	padding-top: 12%;
+	padding-bottom: 1%;
+	text-align: center;
+	color:white;
 }
 
-
-
-.content h2, .content p, .content h4{
-	margin-left:2%;
+p{
+	color:white;
+	text-align: center;
+	font-size: 140%;
+	width:55%;
+	margin:auto;
+}
+#social{
+	text-align: center;
+	margin:auto;
+	padding-top: 3%;
 }
 
-p.col-md-9{
-	font-weight: bold;
-	font-size: 20px;
+#fb img:hover,#lk img:hover,#git img:hover, #download img:hover{
+	background-color:black;
+	transition: 1s;
 }
 
-img.col-md-1{
-	padding-top:0.5%;
+#lk{
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
-#sal img{
-	width:25% !important;
-	
+#download{
+	padding-top: 5%;
+	width: 30%;
+	margin:auto;
+	text-align: center;
 }
+
+#download p{
+	padding-bottom: 5%;
+}
+
