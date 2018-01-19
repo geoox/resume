@@ -8,19 +8,27 @@ body{
 
 
 h1{
-	padding-top: 12%;
+	padding-top: 10%;
 	padding-bottom: 1%;
 	text-align: center;
 	color:white;
 }
 
-#sect1 p, #download p{
+#sect1 p{
 	color:white;
 	text-align: center;
 	font-size: 140%;
 	width:55%;
 	margin:auto;
 }
+
+ #download p{
+ 	color:white;
+	text-align: center;
+	font-size: 140%;
+	width:70%;
+	margin:auto;
+ }
 
 #sect2 p, #download2 p{
 	color:white;
@@ -54,24 +62,26 @@ h1{
 }
 
 #download{
-	padding-top: 5%;
-	width: 30%;
+	padding-top: 4%;
+
 	margin:auto;
 	text-align: center;
+	padding-bottom: 5%;
+	display: table;
 }
 
-#download p{
-	padding-bottom: 5%;
+#part1, #part2{
+	float:left;
 }
 
 #download2{
-	padding-top: 15%;
+	padding-top: 7%;
 	width: 90%;
 	margin:auto;
 	text-align: center;
 }
 #download2 img{
-	width: 20%;
+	width: 15%;
 	
 }
 
