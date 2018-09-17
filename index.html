@@ -8,15 +8,19 @@
 	<link rel="icon" type="image/png" href="img/code-not-equal-variant.png">
 </head>
 <body>
-<div id="sect1" style="display: none;" class="hide-on-med-and-down">
-	<h1>I'm George</h1>
-	<p>Third year Cybernetics and Computer Science student looking for new and exciting challenges. Having worked with technologies like Javascript, Angular, Ionic, Git or Bootstrap I am looking to enhance my programming skills by learning and experiencing more about the newest languages and frameworks.</p>
-</div>
+	<div id="hello" style="display:none">
+		<h1>Hello, nice to meet you!</h1>
+	</div>
 
-<div id="sect2" style="display: none;" class="hide-on-large-only">
-	<h1>I'm George</h1>
-	<p>Third year Cybernetics and Computer Science student looking for new and exciting challenges. Having worked with technologies like Javascript, Angular, Ionic, Git or Bootstrap I am looking to enhance my programming skills by learning and experiencing more about the newest languages and frameworks.</p>
-</div>
+	<div id="sect1" style="display: none;" class="hide-on-med-and-down">
+		<h1>I'm George</h1>
+		<p>Third year Cybernetics and Computer Science student looking for new and exciting challenges. Having worked with technologies like Javascript, Angular, Ionic, Git or Bootstrap I am looking to enhance my programming skills by learning and experiencing more about the newest languages and frameworks.</p>
+	</div>
+
+	<div id="sect2" style="display: none;" class="hide-on-large-only">
+		<h1>I'm George</h1>
+		<p>Third year Cybernetics and Computer Science student looking for new and exciting challenges. Having worked with technologies like Javascript, Angular, Ionic, Git or Bootstrap I am looking to enhance my programming skills by learning and experiencing more about the newest languages and frameworks.</p>
+	</div>
 
 	<div id="social" style="display: none;" class="hide-on-med-and-down">
 		<div class="row">
@@ -62,11 +66,15 @@
 
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$('#sect1').delay(1000).fadeIn(1500);
-			$('#sect2').delay(1000).fadeIn(1500);
-			$('#social').delay(1500).fadeIn(1000);
-			$('#download').delay(2000).fadeIn(1000);
-			$('#download2').delay(2000).fadeIn(1000);
+			$('#hello').delay(500).fadeIn(1000);
+			$('#hello').delay(1000).fadeOut(500, function() {
+        		$(this).remove();
+    		});
+			$('#sect1').delay(3000).fadeIn(1500);
+			$('#sect2').delay(3000).fadeIn(1500);
+			$('#social').delay(3800).fadeIn(1000);
+			$('#download').delay(4200).fadeIn(1000);
+			$('#download2').delay(4200).fadeIn(1000);
 		})
 
 	</script>
